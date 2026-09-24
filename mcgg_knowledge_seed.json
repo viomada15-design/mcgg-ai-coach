@@ -1,0 +1,30 @@
+{
+  "game": "Magic Chess: Go Go",
+  "season": 7,
+  "knowledge_version": "0.1-seed",
+  "entities": {
+    "commander": [],
+    "hero": [],
+    "synergy": [],
+    "gogo_card": [],
+    "equipment": []
+  },
+  "rules": [
+    {
+      "id": "economy-preserve-flexibility",
+      "category": "economy",
+      "statement": "Avoid aggressive reroll when the board is stable and HP is healthy unless a defined power spike is reachable.",
+      "confidence": 0.72,
+      "scope": "generic-auto-chess-seed",
+      "requires_patch_validation": true
+    },
+    {
+      "id": "low-hp-stabilize",
+      "category": "economy",
+      "statement": "At low HP, prioritize immediate board strength over long-term greed.",
+      "confidence": 0.80,
+      "scope": "generic-auto-chess-seed",
+      "requires_patch_validation": true
+    }
+  ]
+}
